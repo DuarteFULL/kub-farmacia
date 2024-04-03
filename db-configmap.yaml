@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-configmap
+data:
+  MYSQL_DATABASE: dbfarmacia9
+  MYSQL_USER: root
+  MYSQL_ROOT_PASSWORD: senha
+  MYSQL_HOST: svc-db
