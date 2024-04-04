@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-configmap
+data:
+ DATASOURCE_URL: jdbc:mysql://127.0.0.1:30001/dbfarmacia9
+ DDATASOURCE_USERNAME: root
+ DDATASOURCE_PASSWORD: senha
