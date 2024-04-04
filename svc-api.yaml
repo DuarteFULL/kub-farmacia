@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: svc-api
 spec:
-  containers:
   type: NodePort
   selector:
     app: api-pod
