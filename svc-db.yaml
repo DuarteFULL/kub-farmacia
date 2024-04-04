@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: svc-db
 spec:
-  containers:
   type: ClusterIP
-  selector:
-    app: db-pod
   ports:
   - port: 3306
+  selector:
+    app: db-pod
+  
